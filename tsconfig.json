@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@app": ["src/app/*"],
+      "@ui": ["src/app/ui/*"],
+      "@assets": ["src/app/ui/assets/*"],
+      "@css": ["src/app/ui/assets/css/*"],
+      "@images": ["src/app/ui/assets/images/*"],
+      "@components": ["src/app/ui/components/*"],
+      "@composable": ["src/app/ui/composable/*"],
+      "@layouts": ["src/app/ui/layouts/*"],
+      "@router": ["src/app/ui/router/*"],
+      "@views": ["src/app/ui/views/*"],
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/main.js"]
+}

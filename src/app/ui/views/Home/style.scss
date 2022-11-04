@@ -1,0 +1,24 @@
+.text-page {
+    @apply text-purple-500;
+}
+
+.hero-banner {
+    @apply min-h-screen -mt-[80px] pt-[80px] px-5 xl:px-0 bg-black relative;
+  }
+.wrapper-home {
+  @apply relative flex justify-center min-h-full z-50;
+
+  .input-search {
+    @apply w-full mb-5 px-4 py-2 text-base border-b-2 border-gray-400 bg-gray-300 focus:outline-none focus:border-sky-500;
+  }
+
+  .wrapper-country {
+    @apply flex gap-x-10 gap-y-10 items-center justify-between;
+
+    .country-name {
+      white-space: nowrap; 
+      overflow: hidden; 
+      text-overflow: ellipsis;
+    }
+  }
+}

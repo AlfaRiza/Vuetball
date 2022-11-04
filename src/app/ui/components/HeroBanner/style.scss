@@ -1,0 +1,40 @@
+
+  .hero-banner .hero-body {
+    @apply grid xl:grid-cols-2;
+  }
+
+  .hero-banner .left-section {
+    @apply xl:px-[120px] xl:py-20 container z-10;
+  }
+
+  .hero-banner .right-section {
+    @apply xl:relative hidden xl:inline;
+  }
+
+  .hero-banner .text-heading {
+    @apply font-semibold text-6xl lg:text-7xl text-white lg:leading-[80px];
+  }
+
+  .text-gradient-primary {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-red-500;
+  }
+
+  .hero-banner .text-body {
+    @apply pt-10 text-gray-500 text-base;
+  }
+
+  .button-primary {
+    @apply duration-300 border rounded px-12 py-3 text-white border-transparent bg-gradient-to-tr from-orange-300 to-red-500 cursor-pointer hover:scale-110;
+  }
+
+  .link-primary {
+    @apply rounded px-5 text-white flex items-center gap-3 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr hover:from-orange-300 hover:to-red-500 hover:scale-110 duration-300;
+  }
+
+  .hero-banner .customer-container {
+    @apply p-3 rounded-lg w-44 h-20 absolute z-20 bg-gradient-to-l from-[#3A3A3A4D]/50 to-[#DEDEDE]/25 border border-transparent flex-col justify-center align-middle items-center content-center gap-5 top-[5%] right-[25%] -space-x-2;
+  }
+
+  .hero-banner .customer-container .customer-img {
+    @apply inline-block h-7 w-7 rounded-full ring-2 ring-white;
+  }
